@@ -1,0 +1,1019 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: rgb(252, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#header{
+    height: 90px;
+    width: 100wh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    text-align: center;
+}
+#header a{
+    display: flex;
+    justify-content: start;
+    position: relative;
+    left: 65px;
+    /* padding-top: 67px; */
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+
+}
+
+
+
+#header img{
+    /* background-color: black; */
+    position: relative;
+    left:35%;
+    width: 250px;
+
+}
+.features{
+    height: 90px;
+    width: 100%;
+    /* font-weight: 900; */
+    display: flex;
+    align-items: center;
+
+}
+.features img{
+    /* font-size: 35px;
+    margin-left: 60px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif; */
+    height: 65px;
+    width: 150px;
+    position: relative;
+    left: 90px;
+
+}
+.words{
+    /* background-color: blue; */
+    position: absolute;
+    bottom: 35px;
+    left: 67%;
+    color: white;
+}
+.words h1{
+    font-size: 50px;
+}
+.words h2{
+    font-size: 25px;
+    text-align: left;
+    font-weight: bolder;
+    
+}
+.words svg{
+    /* background-color: black; */
+    position: relative;
+    right: 50px;
+    top: 45px;
+    fill: red;
+
+}
+.wordsright{
+    position: absolute;
+    bottom: 35px;
+    right: 55%;
+    color: white;
+
+
+}
+.wordsright svg{
+    /* background-color: black; */
+    position: relative;
+    right: 50px;
+    top: 45px;
+    fill: red;
+}
+.wordsright h1{
+    font-size: 50px;
+}
+.wordsright h2{
+    font-size: 25px;
+    text-align: left;
+    font-weight: bolder;
+}
+.words:hover{
+    color: rgb(197, 34, 34);
+    transition: all;
+    transition: all 0.4s ease-in;
+
+    /* transition-behavior: fade; */
+}
+.wordsright:hover{
+    color: rgb(197, 34, 34);
+    transition: all;
+    transition: all 0.4s ease-in;
+}
+/* #carouselExampleIndicators{
+    height: 100vh ;
+    width: 100%;
+} */
+
+/* ==========================================grid css=========================================================== */
+
+div>.a{
+    margin-top: 50%;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+.a{
+    height: 42px;
+    width: 170px;
+    border: none;
+}
+
+.a:hover{
+    background-color: red;
+}
+
+
+.a>.icon{
+    position: relative;
+    right: 10px;
+    bottom: 4px;
+}
+.b{
+    height: 42px;
+    width: 150px;
+    border: 1px solid whitesmoke;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+.b:hover{
+    background-color: red;
+}
+
+    
+
+#content-grid-head{
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#content-img{
+    height: 110vh;
+    width: 100%;
+    background-color: black;
+}
+#content-img>.grid-row1{
+   height: 50%;
+   width: 100%;
+   display: flex;
+}
+#content-img>.grid-row1>.grid1{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./porsche-small1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 34%;
+    border: none;
+}
+
+
+#content-img>.grid-row1>.grid1>h1{
+    color: aliceblue;
+    font-size: xx-large;
+    margin-left: 6%;
+    position: relative;
+    top: 10px;
+}
+#content-img>.grid-row1>.grid1>h2{
+    color: aliceblue;
+    font-size: large;
+    font-weight: 700;
+    margin-left: 6%;
+    position: relative;
+    top: 10px;
+}
+#content-img>.grid-row1>.grid1>img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid whitesmoke;
+}
+
+#content-img>.grid-row1>.grid2{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./porsche-small\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 34%;
+    border: none;
+}
+#content-img>.grid-row1>.grid2>img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid whitesmoke;
+}
+
+#content-img>.grid-row1>.grid2>h1{
+    color: aliceblue;
+    font-size: xx-large;
+    margin-left: 6%;
+    position: relative;
+    top: 10px;
+}
+#content-img>.grid-row1>.grid2>h2{
+    color: aliceblue;
+    font-size: large;
+    font-weight: 700;
+    margin-left: 6%;
+    position: relative;
+    top: 10px;    
+    
+}
+#content-img>.grid-row1>.grid3{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./porsche-small\ 3.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 34%;
+    border: none;
+}
+#content-img>.grid-row1>.grid3>h1{
+    color: aliceblue;
+    font-size: xx-large;
+    margin-left: 6%;
+    position: relative;
+    top: 10px;
+}
+#content-img>.grid-row1>.grid3>h2{
+    color: aliceblue;
+    font-size: large;
+    font-weight: 700;
+    margin-left: 6%;
+    position: relative;
+    top: 10px;
+}
+#content-img>.grid-row1>.grid3>img{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid whitesmoke; */
+}
+
+#content-img>.grid-row2{
+    height: 50%;
+    width: 100%;
+   display: flex;
+}
+#content-img>.grid-row2>.model-img1{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./porsche-small\ 4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 34%;
+    border: none;
+}
+#content-img>.grid-row2>.model-img1>h1{
+    color: aliceblue;
+    font-size: xx-large;
+    margin-left: 6%;
+    position: relative;
+    top: 10px;
+}
+#content-img>.grid-row2>.model-img1>h2{
+    color: aliceblue;
+    font-size: large;
+    font-weight: 700;
+    margin-left: 6%;
+    position: relative;
+    top: 10px;    
+    
+}
+#content-img>.grid-row2>.model-img1>img{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid whitesmoke; */
+}
+#content-img>.grid-row2>.model-img2{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./porsche-small\ 5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 34%;
+    border: none;
+}
+#content-img>.grid-row2>.model-img2>h1{
+    color: aliceblue;
+    font-size: xx-large;
+    margin-left: 6%;
+    position: relative;
+    top: 10px;
+}
+#content-img>.grid-row2>.model-img2>h2{
+    color: aliceblue;
+    font-size: large;
+    font-weight: 700;
+    margin-left: 6%;
+    position: relative;
+    top: 10px;    
+    
+}
+#content-img>.grid-row2>.model-img2>img{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid whitesmoke; */
+}
+#content-img>.grid-row2>.model-img3{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./porsche-small\ 6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 34%;
+    border: none;
+}
+#content-img>.grid-row2>.model-img3>h1{
+    color: aliceblue;
+    font-size: xx-large;
+    margin-left: 6%;
+    position: relative;
+    top: 10px;
+}
+#content-img>.grid-row2>.model-img3>h2{
+    color: aliceblue;
+    font-size: large;
+    font-weight: 700;
+    margin-left: 6%;
+    position: relative;
+    top: 10px;    
+    
+}
+#content-img>.grid-row2>.model-img3>img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid whitesmoke;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+#model-para{
+   /* background-color: black; */
+   position: relative;
+   left: 120px;
+   top: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;
+   font-weight: 500;
+}
+
+
+#find{
+    position: relative;
+    left: 120px;
+    top: 30px;
+    font-weight: normal;
+    /* background-color: aqua; */
+    width: 70%;
+    
+}
+#near-u-shop{
+    height: 45vh ;
+    width: 85vw;
+    /* background-color: blue; */
+    margin-left:7% ;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #9598A6; */
+}
+
+#near-u-shop>.near-u1>button{
+    height: 18%;
+    width: 45%;
+    color: whitesmoke;
+    background-color: rgb(37, 37, 37);
+    margin-left: 26%;
+    border: 0cap;
+    /* background-color: blue; */
+}
+#near-u-shop>.near-u2>button{
+    height: 18%;
+    width: 45%;
+    color: whitesmoke;
+    background-color: rgb(37, 37, 37);
+    margin-left: 26%;
+    border: 0cap;
+    
+}
+#near-u-shop>.near-u3>button{
+    height: 18%;
+    width: 45%;
+    color: whitesmoke;
+    font-weight: 400;
+    background-color: rgb(37, 37, 37);
+    margin-left: 30%;
+    border: 0cap;
+}
+#near-u-shop>.near-u1>img{
+    height: 80%;
+    width: 100%;
+
+    background-color: blanchedalmond;
+}
+#near-u-shop>.near-u2>img{
+    height: 80%;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+#near-u-shop>.near-u3>img{
+    height: 80%;
+    width: 100%;
+}
+#near-u-shop>.near-u1{
+    height: 100%;
+    width: 35%;
+    /* background-color: red; */
+}
+#near-u-shop>.near-u2{
+    height: 100%;
+    width: 35%;
+    /* background-color: rgb(142, 201, 34); */
+}
+#near-u-shop>.near-u3{
+    height: 100%;
+    width: 35%;
+    /* background-color: rgb(172, 33, 114); */
+}
+/* =========================================================================================== */
+
+#Shopping-tools{
+    margin-left:7% ;
+    margin-top: 3%;
+    /* margin-bottom: %; */
+    position: relative;
+    top: 60px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.Shopping-tools-img{
+    height: 45vh;
+    width: 85vw;
+    margin: 7%;
+    display: flex;
+}
+
+.Shopping-tools-img>.compare{
+    height: 100%;
+    width: 50%;
+    background-image: url(./shopping\ 1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+.Shopping-tools-img>.compare>h1{
+    color: aliceblue;
+    font-size: x-large;
+    padding-left: 4%;
+    padding-top: 52%;
+    position: relative;
+    bottom: 37px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.Shopping-tools-img>.compare>h1>.redbtn{
+    color: red;
+}
+.Shopping-tools-img>.compare>h1:hover{
+    color: red;
+    
+}
+.Shopping-tools-img>.locate-a-dealer{
+    height: 100%;
+    width: 25%;
+    background-image: url(./shopping\ 2.png);
+    border: 1px solid rgb(255, 255, 255);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative;
+    right: 400px; */
+}
+.Shopping-tools-img>.locate-a-dealer>h1{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    padding-left: 4%;
+    padding-top: 100%;
+    position: relative;
+    bottom: 26px;
+    font-size: 19px;
+    cursor: pointer;
+
+}
+.Shopping-tools-img>.locate-a-dealer>h1>.redbtn{
+    color: red;
+}
+.Shopping-tools-img>.locate-a-dealer>h1:hover{
+    color: red;
+}
+
+
+.Shopping-tools-img>.porsche-lifestyle{
+    height: 100%;
+    width: 20%;
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url(./shopping\ 3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative;
+    right: 399px; */
+}
+.Shopping-tools-img>.porsche-lifestyle>h1{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    padding-left: 4%;
+    padding-top: 100%;
+    margin-top: 30px;
+    font-size: 19px;
+    cursor: pointer;
+
+}
+.Shopping-tools-img>.porsche-lifestyle>h1>.redbtn{
+    color: red;
+}
+.Shopping-tools-img>.porsche-lifestyle>h1:hover{
+    color: red;
+}
+.Shopping-tools-img>.contact-us{
+    height: 100%;
+    width: 20%;
+    /* border: 5px solid rgb(221, 32, 126); */
+    background-image: url(./shopping-4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid rgb(255, 255, 255);
+
+   
+}
+.Shopping-tools-img>.contact-us>h1{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    padding-left: 4%;
+    padding-top: 100%;
+    margin-top: 30px;
+    font-size: 19px;
+    cursor: pointer;
+
+    
+
+}
+.Shopping-tools-img>.contact-us>h1>.redbtn{
+    color: red;
+}
+.Shopping-tools-img>.contact-us>h1:hover{
+    color: red;
+}
+
+
+/* ----------------------------------------------------------------------------------------- */
+
+.social-header{
+    margin-left: 110px;
+}
+
+#socialgrid{
+    height: 100vh;
+    width: 85vw;
+    margin: 7%;
+    position: relative;
+    bottom: 60px;
+}
+#socialgrid>.col1{
+    height: 45vh;
+    width: 85vw;
+    /* margin: 7%; */
+    display: flex;
+}
+#socialgrid>.col1>.social1{
+    height: 110%;
+    width: 32%;
+    background-image: url(./social1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 6px solid rgb(255, 255, 255);
+
+    
+}
+#socialgrid>.col1>.social2{
+    height: 65%;
+    width: 18%;
+    background-image: url(./social1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 6px solid rgb(255, 255, 255);
+
+}
+#socialgrid>.col1>.social3{
+        height: 65%;
+        width: 17%;
+        background-image: url(./social1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 6px solid rgb(255, 255, 255);
+
+
+}
+#socialgrid>.col1>.social4{
+    height: 110%;
+    width: 32%;
+    background-image: url(./social\ new4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fill;
+    border: 6px solid rgb(255, 255, 255);
+
+    
+}
+#socialgrid>.col1>.social5{
+    height: 110%;
+    width: 32%;
+    background-image: url(./social\ new4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fill;
+    border: 6px solid rgb(255, 255, 255);
+
+    
+}
+#socialgrid>.col2{
+    height:40vh;
+    width: 85vw;
+    /* margin: 7%; */
+    display: flex;
+    background-color: rgb(255, 255, 255);
+
+}
+#socialgrid>.col2>.social5{
+    height: 58%;
+    width: 16%;
+    background-image: url(./social\ 6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 6px solid rgb(255, 255, 255);
+    position: relative;
+    top: 30px;
+    
+
+}
+#socialgrid>.col2>.social6{
+    height: 58%;
+    width: 16%;
+    /* background-image: url("https://d7c4jjeuqag9w.cloudfront.net/videos/056ea044fcac92640acf4629b9fe354517dae335dffcaf1da350cc220885c660/0/540p"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 6px solid rgb(255, 255, 255);
+    position: relative;
+    top: 30px; 
+}
+#socialgrid>.col2>.social7{
+    width: 35%;
+    /* background-image: url(); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fill;
+    /* border: 6px solid rgb(0, 0, 0); */
+    position: relative;
+    bottom: 98px;
+
+
+}
+#socialgrid>.col2>.social8{
+    height: 58%;
+    width: 16%;
+    background-image: url("./social9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 6px solid rgb(255, 255, 255);
+    position: relative;
+    top: 30px; 
+   
+    
+}
+#socialgrid>.col2>.social9{
+    height: 58%;
+    width: 16%;
+    background-image: url("./scoial.final.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 6px solid rgb(255, 255, 255);
+    position: relative;
+    top: 30px; 
+   
+}
+.load{
+    background-color: rgb(48, 46, 46);
+    color: white;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    position: relative;
+    left: 1139px;
+    bottom: 80px;
+    border: 0cap;
+}
+.load:hover{
+    color: red;
+}
+
+
+/* ------------------------discover------------------------------------- */
+
+.Discover-header{
+    margin-left: 110px;
+    position: relative;
+    bottom: 260px;
+}
+#Discover{
+    height: 45vh;
+    width: 85vw;
+    margin: 7%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 290px;
+}
+#Discover>.dis1>.pic0{
+    width: 330px;
+    height: 250px;
+
+    
+}
+#Discover>.dis2>.pic1{
+    width: 330px;
+    height: 250px;
+
+    
+}
+#Discover>.dis3>.pic2{
+    width: 330px;
+    height: 250px;
+}
+#Discover>.dis4>.pic3{
+    width: 330px;
+    height: 250px;
+
+}
+#Discover:hover{
+ color: red; 
+ transition: all 0.4s ease-in;
+}
+#Discover .dbtn{
+    color: red;
+}
+
+/* .line{
+    position: relative;
+    left: 112px;
+    bottom: 380px;
+} */
+
+/* =============================foot1============== */
+
+#footer{
+    height: 50vh;
+    width: 85vw;
+    margin: 7%;
+    position: relative;
+    bottom:350px;
+    /* background-color: rgb(106, 100, 100); */
+    display: flex;
+    justify-content: space-between;
+    
+}
+#footer .buildfind .imes1{
+  list-style: none;
+  
+  
+}
+#footer .buildfind  .yh {
+    font-size: 22px;
+}
+
+
+
+#footer .buildfind .imes1 a{
+    text-decoration: none;
+    /* background-color: aqua; */
+    color: black;
+    position: relative;
+    right: 30px;
+    font-size: 15px;
+}
+#footer .buildfind .imes1 a:hover{
+    color: red;
+}
+/* ===================================================================== */
+
+#footer .online .h2{
+    font-size: 22px;
+}
+#footer .online  .fr{
+    color: black;
+text-decoration: none;
+font-size: 15px;
+
+}
+#footer .online  .fr:hover{
+    color: red;
+}
+
+/* ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
+
+
+
+#footer .behind .imes2 {
+   list-style: none;
+}
+#footer .behind  .h3 {
+    font-size: 22px;
+
+
+}
+#footer .behind .imes2 .uu{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    right: 30px;
+    font-size: 15px;
+
+
+}
+#footer .behind .imes2 .uu:hover{
+    color: red;
+}
+
+/* -------------------------------------------------------- */
+
+#footer .porschecompay .imes3 {
+    list-style: none;
+}
+#footer .porschecompay .h4 {
+    font-size: 22px;
+
+}
+
+
+#footer .porschecompay .imes3 .jj{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    right: 30px;
+    font-size: 15px;
+}
+#footer .porschecompay .imes3 .jj:hover{
+    color: red;
+}
+
+.signup{
+    background-color:transparent;
+    height: 250px;
+    width: 390px;
+    position: relative;
+    bottom: 500px;
+    left:1045px;
+    
+}
+.signup .sharepage{
+    height: 50px;
+    width:390px;
+    background-color :#191F22;
+    color: rgb(255, 255, 255);
+    font-family:sans-serif ;
+    border: 0cap;
+    text-align: left;
+
+    
+}
+.signup .sharepage:hover{
+    color: red;
+
+}
+.signup .gridsmall{
+    /* background-color: aquamarine; */
+    display: flex;
+    position: relative;
+    top: 80px;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* margin: 20px; */
+}
+.signup .gridsmall .tools{
+    height: 50px;
+    width: 50px;
+    background-color: #191F22;
+}
+.signup .gridsmall .tools .log{
+    position: relative;
+    top: 8px;
+}
+.connect{
+    width: 200px;
+    height: 20px;
+    color: #9598A6;
+    /* background-color: antiquewhite; */
+    position: relative;
+     left: 69%;
+     bottom: 380px;
+     font-size: 19px;
+    
+ }
+
+ .footer2{
+    width: 100%;
+    height: 100vh;
+    background-color: #191F22;
+    
+ }
+.footer2 .Latest{
+    color: white;
+    position: relative;
+    left: 130px;
+    padding-top: 20px;
+
+   } 
+ 
+.footer2 .form-select{
+    width: 27%;
+    position: relative;
+    left: 130px;
+    display: inline-block;    
+}
+
+.fop{
+    color: white;
+    padding-left: 100px;
+    padding-top: 90px;
+    font-size: 15px;
+    width: 89%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
